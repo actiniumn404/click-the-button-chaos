@@ -100,7 +100,8 @@ class Thief {
 			this.x - 25 <= mouseX &&
 			mouseX <= this.x + 50 &&
 			this.y <= mouseY &&
-			mouseY <= this.y + 50
+			mouseY <= this.y + 50 &&
+			mouseDown
 		) {
 			auxloops.delete(this);
 			num_clicks += 5;
